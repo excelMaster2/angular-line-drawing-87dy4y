@@ -16,7 +16,7 @@ table.sjs-table > tbody > tr:first-child > td {
 .wrapper{
   display: flex;
   flex-direction: row;
-  width:800px;
+  width:5000px;
 }
 
 .env{

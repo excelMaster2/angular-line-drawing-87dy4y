@@ -12,11 +12,12 @@
 <ul>
       <li *ngFor="let item of devSteps" #elem id={{item.id}}>
         <div class="step">
-          <app-sheet></app-sheet>
+          
         {{ item.name}} 
         {{ item.id}}
         <input style="width:30px; background: yellow;" #suc/>
         <button (click)="add(item,suc.value)">Add Successor</button>
+         <app-sheet></app-sheet>
       </div>
       </li>
 </ul>
